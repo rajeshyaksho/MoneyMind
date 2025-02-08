@@ -1,0 +1,16 @@
+# Node modules folder
+node_modules/
+
+# Package lock file (optional, depending on your workflow)
+package-lock.json
+
+# Build directories
+build/
+dist/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
