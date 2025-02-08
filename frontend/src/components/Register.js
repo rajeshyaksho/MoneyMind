@@ -13,7 +13,7 @@ function Register() {
                 username,
                 password
             });
-            window
+            window.location.href = '/login';
         } catch (err) {
             setError(err.response?.data?.message || 'Registration failed');
         }
@@ -47,3 +47,5 @@ function Register() {
         </div>
     );
 }
+
+export default Register;
